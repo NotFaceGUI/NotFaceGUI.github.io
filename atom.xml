@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://notfacegui.github.io</id>
+    <id>https://ntracg.com</id>
     <title>属实不行</title>
-    <updated>2020-12-21T13:10:44.193Z</updated>
+    <updated>2020-12-21T13:14:24.053Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://notfacegui.github.io"/>
-    <link rel="self" href="https://notfacegui.github.io/atom.xml"/>
+    <link rel="alternate" href="https://ntracg.com"/>
+    <link rel="self" href="https://ntracg.com/atom.xml"/>
     <subtitle>学习笔记 (⊙o⊙) </subtitle>
-    <logo>https://notfacegui.github.io/images/avatar.png</logo>
-    <icon>https://notfacegui.github.io/favicon.ico</icon>
+    <logo>https://ntracg.com/images/avatar.png</logo>
+    <icon>https://ntracg.com/favicon.ico</icon>
     <rights>All rights reserved 2020, 属实不行</rights>
     <entry>
         <title type="html"><![CDATA[Hello Java ]]></title>
-        <id>https://notfacegui.github.io/post/hello-java/</id>
-        <link href="https://notfacegui.github.io/post/hello-java/">
+        <id>https://ntracg.com/post/hello-java/</id>
+        <link href="https://ntracg.com/post/hello-java/">
         </link>
         <updated>2020-12-21T09:26:03.000Z</updated>
         <content type="html"><![CDATA[<h1 id="java的学习笔记">Java的学习笔记</h1>
