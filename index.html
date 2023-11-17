@@ -1,16 +1,77 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./vite.svg" />
-    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+SC:100,300,400,500,700,900"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nikke Balabala 生成器</title>
-    <script type="module" crossorigin src="./assets/index-61211569.js"></script>
-    <link rel="stylesheet" href="./assets/index-a33f1b03.css">
-  </head>
-  <body>
-    <div id="app"></div>
-    
-  </body>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/imgs/icon.jpg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>流浪鬼的工具库</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      background-color: #242424;
+      height: 100%;
+    }
+
+    #app {
+      margin: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .blbl {
+      box-sizing: border-box;
+      padding: 10px;
+      margin-right: 20px;
+      margin-bottom: 30px;
+      width: 150px;
+      height: 150px;
+      color: aliceblue;
+      font-size: 18px;
+      font-weight: bold;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 1px transparent solid;
+      filter: drop-shadow(0 0 0.8em #42b88300);
+      transition: all .1s ease-in-out;
+    }
+
+    .blbl:hover {
+      filter: drop-shadow(0 0 0.8em #ffb536);
+    }
+
+    .blbl:active {
+      transform: scale(0.95);
+    }
+
+    .blbl>img {
+      margin-bottom: 10px;
+      box-shadow: 2px 1px 96px 19px rgba(0, 0, 0, 0.73);
+      -webkit-box-shadow: 2px 1px 96px 19px rgba(0, 0, 0, 0.73);
+      -moz-box-shadow: 2px 1px 96px 19px rgba(0, 0, 0, 0.73);
+    }
+  </style>
+</head>
+
+<body>
+  <div style="color: aliceblue;margin: 20px;margin-bottom: 40px;">
+    <h1 style="text-align: center;">流浪鬼的工具发布页</h1>
+  </div>
+  <div id="app">
+    <a href="https://notfacegui.github.io/nikke-balabala/" style="text-decoration: none;">
+      <div class="blbl">
+        <img src="./imgs/app/btn_messenger.png" width="98" height="95">
+        <span style="display: block;width: 200px;">Nikke 巴拉巴拉生成器</span>
+      </div>
+    </a>
+  </div>
+</body>
+
 </html>
